@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+font-family: 'Poppins', sans-serif;
+}
+
+.navbar 
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav
+{
+    flex:1;
+    text-align: right;
+}
+
+nav ul
+{
+ display: inline-block;
+ list-style-type: none;
+}
+
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+a
+{
+    text-decoration: none;
+    color:#555;
+}
+
+p
+{
+    color:#555;
+}
+
+.container 
+{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row 
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2
+{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img 
+{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.btn
+{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.header 
+{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row 
+{
+  margin-top: 70px;  
+}
+
+.categories
+{
+    margin: 70px 0;
+}
+
+.col-3 
+{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.small-container
+{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4 
+{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img
+{
+    width: 100%;
+}
+
+.title 
+{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after
+{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 
+{
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p
+{
+font-size: 14px;
+}
+
+.rating i 
+{
+    color: #ff523b;
+}
+
+.col-4:hover 
+{
+transform: translateY(-25px);
+}
+
+.offer 
+{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.col-2 .offer-img 
+{
+    padding: 50px;
+}
+
+small 
+{
+    color: #555;
+}
+
+
+.testimonial
+{
+    padding-top: 100px;
+}
+.testimonial .col-3
+{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+
+}
+
+.testimonial .col-3 img 
+{
+    width: 95px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover
+{
+    transform: translateY(-10px);
+}
+
+.color-icon 
+{
+    font-size: 24px;
+    color: #ff523b;
+}
+
+.col-3 p 
+{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3 
+{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+
+
+.brands
+{
+    margin:100px auto;
+}
+
+.col-5
+{
+    width: 160px;
+}
+
+.col-5 img
+{
+width: 100%;
+cursor: pointer;
+filter: grayscale(100%);
+}
+
+.col-5 img:hover
+{
+    filter: grayscale(0%);
+}
+
+
+.footer 
+{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p
+{
+    color: #8a8a8a;
+}
+
+.footer h3
+{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2,.footer-col-3,.footer-col-4
+{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1
+{
+    flex-basis: 30%;
+}
+.footer-col-2
+{
+    flex-basis: 30%;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4
+{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul
+{
+    list-style-type: none;
+}
+
+.app-logo
+{
+    margin-top: 20px;
+}
+
+.app-logo img 
+{
+    width: 140px;
+}
+
+.footer hr 
+{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.Copyright{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* Điều chỉnh padding cho .container và .small-container */
+    .container,
+    .small-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Điều chỉnh font-size cho toàn bộ trang */
+    body {
+        font-size: 14px;
+    }
+
+    /* Điều chỉnh kích thước logo */
+    .logo img {
+        width: 100px; /* Thay đổi kích thước logo cho phù hợp với màn hình nhỏ hơn */
+    }
+
+    /* Điều chỉnh kích thước ảnh trong phần giới thiệu */
+    .col-2 img {
+        max-width: 100%; /* Đảm bảo ảnh không tràn ra ngoài màn hình */
+        height: auto; /* Đảm bảo tỷ lệ chiều cao/tỉ lệ chiều rộng được bảo toàn */
+        margin-top: 20px; /* Tăng khoảng cách giữa ảnh và tiêu đề */
+    }
+
+    /* Điều chỉnh kích thước button */
+    .btn {
+        padding: 10px 20px; /* Tăng kích thước nút để dễ nhấn trên màn hình nhỏ */
+        font-size: 14px; /* Điều chỉnh font-size */
+    }
+
+    /* Điều chỉnh kích thước cột trong phần sản phẩm nổi bật */
+    .col-4 {
+        flex-basis: 50%; /* Hiển thị 2 cột trên một hàng */
+        max-width: 50%; /* Đảm bảo không bị tràn ra ngoài */
+    }
+
+    /* Điều chỉnh kích thước ảnh sản phẩm */
+    .col-4 img {
+        max-width: 100%; /* Đảm bảo ảnh không tràn ra ngoài màn hình */
+        height: auto; /* Đảm bảo tỷ lệ chiều cao/tỉ lệ chiều rộng được bảo toàn */
+    }
+
+    /* Điều chỉnh kích thước cột trong phần thương hiệu */
+    .brands .col-5 {
+        width: 25%; /* Hiển thị 4 thương hiệu trên một hàng */
+        max-width: 25%; /* Đảm bảo không bị tràn ra ngoài */
+    }
+
+    /* Điều chỉnh kích thước ảnh thương hiệu */
+    .brands .col-5 img {
+        max-width: 100%; /* Đảm bảo ảnh không tràn ra ngoài màn hình */
+        height: auto; /* Đảm bảo tỷ lệ chiều cao/tỉ lệ chiều rộng được bảo toàn */
+    }
+
+    /* Điều chỉnh kích thước ảnh chứng nhận */
+    .testimonial .col-3 img {
+        width: 80px; /* Thay đổi kích thước ảnh chứng nhận */
+        height: 80px;
+        border-radius: 50%; /* Làm tròn ảnh */
+    }
+
+    /* Điều chỉnh kích thước icon chứng nhận */
+    .testimonial .color-icon {
+        font-size: 18px;
+    }
+}
